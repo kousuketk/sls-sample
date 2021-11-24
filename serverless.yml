@@ -18,6 +18,7 @@ plugins:
 provider:
   name: aws
   runtime: nodejs14.x
+  profile: my-app-user
   apiGateway:
     minimumCompressionSize: 1024 # Enable gzip compression for responses > 1 KB
     shouldStartNameWithService: true
